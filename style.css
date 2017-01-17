@@ -1,0 +1,31 @@
+* {
+  border-style: dotted;
+  color: black;
+}
+
+body {
+
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navigation {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation li a {
+  font-size: 20px;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+li {
+  display: inline;
+}
