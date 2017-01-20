@@ -7,12 +7,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title></title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body >
   <div class="container">
     <div class="navigation" id="sticker">
-      <h1>Seiji Mendoza</h1>
-      <ul>
+      <h4 id="seiji">Seiji Mendoza</h4>
+      <ul class="topnav" id="myTopnav">
+        <li class="icon">
+        <a href="javascript:void(0);" onclick="myFunction()" style="font-size: 60px">&#9776;</a>
+        </li>
         <li><a href="" class="">Resume</a></li>
         <li><a href="" class="">Projects</a></li>
         <li><a href="" class="">About</a></li>
@@ -22,10 +27,10 @@
     <div class="tagLine">
       <h4 id="heythere">Hey, there</h4>
       <h4 id="heythere">My name is Seiji, </h4>
-      <h3>a <span style="color:#053582">Front End Enginner</span></h3>
-      <h5>JavaScript/jQuery-HTML5-CSS3-NodeJs-Rails</h5>
+      <h3 id="frontend">a <span style="color:#053582">Front End Enginner</span></h3>
+      <h5 id="lang">JavaScript/jQuery-HTML5-CSS3-NodeJs-Rails</h5>
       <br/>
-      <p>I am highly interested and adaptable with an innate drive to learn how things works.
+      <p id="tagline">I am highly interested and adaptable with an innate drive to learn how things works.
       Using my creativity and analytical skill, I strive to provide people with sensible solutions and
       memorable user experiences.</p>
     </div>
@@ -65,4 +70,6 @@
 </html>
 <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="script.js"></script>
