@@ -119,6 +119,11 @@ li {
   height: 100%; 
 }
 
+#header {
+  height: 100vh;
+  width: 100vw;
+}
+
 .screenshot {
 
 }
@@ -130,6 +135,8 @@ li {
 .tagLine {
   background-color: none;
   padding: 60px;
+  height: 100%;
+  width: 100%; 
 
 }
 
