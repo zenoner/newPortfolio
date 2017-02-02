@@ -143,6 +143,16 @@ li {
 
 }
 
+.centered {
+  position: none;
+  margin-top:22%;
+
+}
+
+.jumbotron {
+
+}
+
 .portfolio {
   /*display: flex;
   flex-wrap: wrap;*/
