@@ -48,8 +48,69 @@ $(document).ready(function(){
     //$("#about").animate({down: '250px'})
 
 
+$(".navigation").hide();
+$(window).scroll(function(){
+  console.log('working');
+  if ($(this).scrollTop() > 100){
+    $('.navigation').fadeIn();
+  } else {
+    $('.navigation').fadeOut();
+  }
+})
 
-});
+}); //end of jquery 
+// $(function () {
+// 		$(window).scroll(function () {
+//             // set distance user needs to scroll before we fadeIn navbar
+// 			if ($(this).scrollTop() > 100) {
+// 				$('.navbar').fadeIn();
+// 			} else {
+// 				$('.navbar').fadeOut();
+// 			}
+// 		});
+
+
+// var didScroll;
+// var lastScrollTop = 0;
+// var delta = 5;
+// var navbarHeight = $('navigation').outerHeight();
+
+// $(window).scroll(function(event){
+//     didScroll = true;
+// });
+
+// setInterval(function() {
+//     if (didScroll) {
+//         hasScrolled();
+//         didScroll = false;
+        
+//     }
+// }, 250);
+
+// function hasScrolled() {
+//     var st = $(this).scrollTop();
+    
+//     // Make sure they scroll more than delta
+//     if(Math.abs(lastScrollTop - st) <= delta)
+//         return;
+    
+//     // If they scrolled down and are past the navbar, add class .nav-up.
+//     // This is necessary so you never see what is "behind" the navbar.
+//     if (st > lastScrollTop && st > navbarHeight){
+//         // Scroll Down
+//         $('navigation').removeClass('nav-down').addClass('nav-up');
+//     } else {
+//         // Scroll Up
+//         if(st + $(window).height() < $(document).height()) {
+//             $('navigation').removeClass('nav-up').addClass('nav-down');
+//         }
+//     }
+    
+//     lastScrollTop = st;
+// }
+
+
+
 
 
 
@@ -64,3 +125,4 @@ $(document).ready(function(){
 // //     $(".test").slideUp();
 // // })
 // });
+// Hide Header on on scroll down
