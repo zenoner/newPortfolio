@@ -141,8 +141,8 @@ li {
 }
 
 .portfolio {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
   justify-content: space-around;
   background-color: #bdbdbd;
   padding-top: 40px;
