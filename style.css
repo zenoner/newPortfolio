@@ -145,8 +145,12 @@ li {
 
 .centered {
   position: none;
-  margin-top:22%;
+  margin-top:20%;
 
+}
+
+.bottons {
+  margin-top: 10%;
 }
 
 .jumbotron {
