@@ -278,6 +278,11 @@ a:hover:after {
   display: none;
 }
 
+img {
+  width: 400px;
+  height: 360px;
+}
+
 
 
 @media only screen and (max-width: 699px) {
@@ -288,6 +293,8 @@ a:hover:after {
     float: right;
     display: inline-block;
    }
+
+
 
 /*The "responsive" class is added to the topnav with JS when the user clicks on the icon.
 This class makes the topnav look good on small screen*/
