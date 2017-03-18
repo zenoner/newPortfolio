@@ -220,12 +220,16 @@ li {
 // }
 
 .info {
-  background-color: white;
+  background-color: #eee;
   display: none;
   height: 360px;
   width: 400px;
-   border-style: solid;
+  border-style: solid;
   border-width: 1px;
+}
+
+.switch {
+  background-color: red;
 }
 
 .lang {
