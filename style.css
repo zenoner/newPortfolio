@@ -56,6 +56,24 @@ h1 {
   padding: 0 10px
 }
 
+.gameName {
+  font-size: 50px;
+}
+
+p#projectinfo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.lang {
+
+}
+
+.center {
+
+}
+
 h5#lang {
   font-size: 25px;
   font-weight: normal;
@@ -77,11 +95,7 @@ font-size: 20px;
 margin-bottom: -25px;
 }
 
-p#projectinfo {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
+
 
 p {
   font-family: 'Open Sans', sans-serif;
@@ -220,6 +234,7 @@ li {
 // }
 
 .info {
+  margin: auto;
   background-color: #eee;
   display: none;
   height: 360px;
@@ -228,16 +243,19 @@ li {
   border-width: 1px;
 }
 
-.switch {
-  background-color: red;
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 40%;
+  
 }
 
-.lang {
-  display: none;
-  height: 80px;
-  width: 400px;
-  margin-top:-10px;
+.switch {
+  background-color: none;
 }
+
+
 
 .aboutMe {
   text-align: center;
