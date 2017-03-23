@@ -18,8 +18,8 @@ $(document).ready(function(){
       console.log("i got you")
       $('img.screenshot', this).hide();
       $('.info', this).show()
-      if ($('.lang', this).is(':hidden')){
-        $('.lang').fadeIn('slow')
+      if ($('.content', this).is(':hidden')){
+        $('.content').fadeIn('slow')
       } else {
         console.log('dont have')
       }
@@ -28,7 +28,7 @@ $(document).ready(function(){
    $('.switch').mouseleave(function(){
       $('img.screenshot').show();
       $('.info').hide();
-      $('.lang').hide();
+      $('.content').hide();
     });
 
 
