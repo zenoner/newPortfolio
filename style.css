@@ -40,7 +40,7 @@ ul.topnav li.icon {
   }
 
 *{
-  border-style: dotted;
+  border-style: none;
   border-width: 1px;
 }
 
@@ -255,15 +255,23 @@ li {
   background-color: none;
 }
 
+.resume {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
 
 
 .aboutMe {
   text-align: center;
 }
 
+#aboutMe {
+  margin-top: -11px;
+ 
+}
 
 .row {
-  border-style: dotted;
+  border-style: none;
 }
 
 .test {
